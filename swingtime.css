@@ -1,12 +1,7 @@
 
-h1 {
-	text-align: center;
-  font-size: 70px;
 
-}
 body {
 	background-color: #fff;
-    /*word-wrap: break-word;*/
 }
 
 .navbar-default {
@@ -15,17 +10,17 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #eee;
+    color: #f5f5f5;
 }
 
 .navbar-default .navbar-brand {
     color: #f5f5f5;
 }
 
-
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #f5f5f5;
-    background-color: #333;
+    /*color: #f5f5f5;*/
+        color: #66CDAA;
+    background-color: #f5f5f5;
 }
 
 .navbar {
@@ -34,6 +29,9 @@ body {
     margin-bottom: 0px;
     border: 1px solid transparent;
 
+/*.nav> li >a:hover {
+    background-color:#FCC;
+}*/
 
 /*.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {*/
     /*color: #333;*/
@@ -65,11 +63,58 @@ background-repeat: no-repeat;
 
 #girl {
       background-image: url("c3.jpeg");  
- 
 }
 
 #phone {
-       background-image: url("c4.jpeg");  
-
+       background-image: url("tech.jpeg");  
 }
+
+a {
+    color: black;
+}
+
+.img-thumbnail {
+    max-width: 220px;
+    height: 150px;
+}
+
+#article1 {
+    max-width: 450px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#article2 {
+    max-width: 450px;
+    height: 250px;
+    margin-top: 20px;
+}
+#article3 {
+    max-width: 450px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+img {
+    vertical-align: super;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* mouse over link */
+a:hover {
+    color: #66CDAA;
+}
+
+/* selected link */
+a:active {
+    color: #708090;
+}
+
+
+
+
 
