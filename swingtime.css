@@ -69,6 +69,38 @@ background-repeat: no-repeat;
        background-image: url("tech.jpeg");  
 }
 
+#clock {
+    background-image: url("clock.jpg");  
+}
+
+#breakfast {
+    background-image: url("breakfast.jpg");  
+}
+
+#reading {
+    background-image: url("reading.jpg");  
+}
+
+#coffee {
+    background-image: url("coffee.jpg");  
+}
+
+#beach {
+    background-image: url("beach.jpg");  
+}
+
+#smoothie {
+    background-image: url("smoothie.jpg");  
+}
+
+#camera {
+    background-image: url("camera.jpg");  
+}
+
+#boat {
+    background-image: url("boat.jpg");  
+}
+
 a {
     color: black;
 }
@@ -120,4 +152,140 @@ a:active {
     margin-top: 20px;
 }
 
+/*body { padding-bottom: 100px; }*/
 
+#nav2 {
+    position: relative; 
+    min-height: 120px;
+    margin-bottom: 0px;
+    border: 2px solid transparent;
+    color: #f5f5f5;
+    background-color: black;
+    
+}
+
+#nav3 {
+position: relative; 
+padding-bottom: 0px;
+    min-height: 120px;
+    margin-bottom: 0px;
+    border: 2px solid transparent;
+    color: #f5f5f5;
+    background-color: black;
+}
+
+#nav5 {
+    position: relative; 
+    padding-bottom: -50px;
+    min-height: 120px;
+    margin-bottom: 0px;
+    border: 2px solid transparent;
+    color: #f5f5f5;
+    background-color: black;
+}
+
+
+.nav4 {
+   position: relative; 
+padding-bottom: 0px;
+    min-height: 120px;
+    margin-bottom: 0px;
+    border: 2px solid transparent;
+    color: #f5f5f5;
+    background-color: red; 
+}
+
+
+.footlist li {
+display: inline-block;
+padding: 60px 30px 0px 30px;
+padding-left: 2cm;
+font-size: 17px;
+}
+
+.footlist a{
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+.btn-default1 {
+    margin-left: 130px;
+}
+
+.btn-default2 {
+   margin-left: 130px;
+}
+
+.btn-default3 {
+ margin-left: 127px; 
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: white;
+    color: black;
+}
+
+.footnote5 {
+    margin-left: 1000px;
+    color: white;
+    padding-bottom:40px;
+}
+
+.footnote6 {
+    margin-left: 790px;
+    color: white;
+    padding-bottom:40px;
+}
+
+.footnote5 {
+    margin-left: 790px;
+    color: white;
+    padding-bottom:40px;
+}
+
+#mini{
+    padding-top: 20px;
+}
+
+#contact{
+     padding-top: 20px;
+}
+
+.first{
+color:  #FF1493;
+}
+
+.btn-lg {
+background: #8FBC8F;
+}
+
+.us {
+       padding-top: 20px;
+}
+
+/*iframe[Attributes Style] {
+    width: 360px;
+    height: 203px;
+    border-top-width: 10px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}*/
+
+.video1{
+    padding-top: 20px;
+}
+
+.twittert{
+  padding-top: 60px;
+
+}
+
+.twitter2{
+  padding-top: 20px;
+ 
+}
