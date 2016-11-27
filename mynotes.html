@@ -1,0 +1,80 @@
+<!-- Grid System -->
+<!-- 3 Classes: 
+ .conteiner: wrapper for all my rows (OPTIONAL - PREVENTING FROM FULL SCREEN STRETCH - if i delete it, my rows will strech to the whole screen).
+ .row: contains all oyur column classes
+ .col-##-##: the sizes of the colimsn in your row -->
+
+ container  contain rows - rows contain columns 
+<style>
+.col-xs-12{
+  height:100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.col-xs-6{
+  height:100px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  border:2px solid black;
+}
+.col-xs-4{
+  height:100px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  border:2px solid black;
+}
+
+.col-xs-8{
+  height:100px;
+  background-color: red;
+  color: black;
+  text-align: center;
+  border:2px solid black;
+}
+
+.footer .col-xs-12{
+  height:100px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border:2px solid black;
+}
+
+
+</style>
+ 
+<div class="container">
+
+  <div class="row">
+      <div class="col-xs-12">.col-xs-12</div>
+ </div>
+
+<div class="row">
+<div class="col-xs-6">.col-xs-6 </div>
+<div class="col-xs-6">.col-xs-6 </div>
+        </div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <div class="row">
+            <div class="col-xs-4">
+              .col-xs-4 </div>
+  <div class="col-xs-8">
+      .col-xs-8 </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="row footer">
+    <div class="col-sm-4">col-xs-4</div>
+    <div class="col-sm-4">col-xs-4</div>
+    <div class="col-sm-4">col-xs-4</div>
+
+
+</div>
+</div>
+
